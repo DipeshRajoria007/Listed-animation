@@ -14,6 +14,10 @@ export default function Home() {
         specifically for the frontend developer role. This assignment serves as
         an opportunity to showcase skills and expertise in the field of frontend
         development.
+        <br />
+        <br />
+        In this version of assignment, I have added little animation after
+        Signing in with google, So pay attention ! Thank You !!
       </h1>
       <button onClick={clickHandler} className={styles.button}>
         Go to SignIn / SignUp Page
