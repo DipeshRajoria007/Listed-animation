@@ -1,0 +1,25 @@
+.dashboard-line-graph-container {
+  height: 400px;
+  width: 100%;
+  padding: 30px 40px;
+  background: #fff;
+  border-radius: 20px;
+  margin-top: 40px;
+  .dashboard-line-graph-heading {
+    select {
+      border: none;
+      color: #858585;
+      font-size: 12px;
+    }
+    select:focus {
+      outline: none;
+    }
+  }
+  .dashboard-line-graph-chart {
+    margin-top: 20px;
+    height: calc(100% - 50px);
+  }
+  @media screen and (max-width: 1200) {
+    height: 70vw;
+  }
+}

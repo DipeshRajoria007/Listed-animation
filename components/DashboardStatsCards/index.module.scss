@@ -1,0 +1,37 @@
+.dashboard-stats-cards {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 20px;
+  width: 24%;
+
+  @media screen and (max-width: 768px) {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .dashboard-stats-image-container {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+  }
+  .dashboard-stats-heading {
+    color: #000;
+    font-size: 14px;
+    margin-top: 1px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .dashboard-stats-value {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 5px;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
